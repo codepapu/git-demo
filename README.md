@@ -1,7 +1,5 @@
 # Papu Sahu's Profile
 
-![Profile Picture](https://www.linkedin.com/in/papu-sahu-84b2062aa/?originalSubdomain=in)
-
 ## Contact Information
 - **LinkedIn:** [Papu Sahu](https://www.linkedin.com/in/papu-sahu-84b2062aa/)
 

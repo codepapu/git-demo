@@ -1,0 +1,84 @@
+body {
+    padding-top: 56px; /* Adjust padding to account for the fixed header */
+    font-family: Arial, sans-serif;
+    background-color: #F1F2F5; /* Light background color */
+}
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #0B5FFF; /* Primary color */
+    color: white;
+    padding: 15px 0;
+}
+.header .navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+.header .navbar-nav a {
+    color: white !important;
+}
+.profile-img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+.social-icons img {
+    height: 40px;
+}
+.contact-info {
+    margin-top: 20px;
+}
+.contact-info p {
+    font-size: 1.1em;
+}
+.section-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color:#0B5FFF; /* Primary color */
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.list-group-item {
+    border: none;
+    padding: 10px;
+    border-radius: 0;
+}
+.list-group-item i {
+    color: #6B6C7E; /* Secondary color */
+    margin-right: 10px;
+}
+.card {
+    margin-bottom: 20px;
+}
+.footer {
+    background-color: #0B5FFF; /* Primary color */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.card-body {
+    background-color: #FFFFFF; /* White background for cards */
+}
+.contact-info {
+    display: flex;
+    justify-content: center; /* Centers the items horizontally */
+    gap: 20px; /* Adjust the gap between items if needed */
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+}
+
+.contact-item i {
+    margin-right: 8px; /* Adjust the spacing between the icon and text */
+}

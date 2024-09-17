@@ -8,45 +8,19 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome CDN for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        body {
-            padding: 20px;
-            font-family: Arial, sans-serif;
-        }
-        .social-icons img {
-            height: 40px;
-            margin-right: 15px;
-        }
-        .section-title {
-            margin-top: 30px;
-            margin-bottom: 15px;
-            color: #007bff;
-        }
-        .profile-img {
-            border-radius: 50%;
-            height: 150px;
-            width: 150px;
-            margin-bottom: 20px;
-        }
-        .emoji {
-            font-size: 1.2em;
-            margin-right: 10px;
-        }
-        .contact-info i {
-            margin-right: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="css/profile.css">
 </head>
 <body>
+
+    <!-- Main Content -->
     <div class="container">
         <div class="text-center">
             <img src="images/papu.jpg" alt="Papu Sahu" class="profile-img">
             <h1>Papu Sahu</h1>
-            <p><i class="fas fa-user-tie"></i> Software Developer</p>
+            <p class="lead"><i class="fas fa-user-tie"></i> Software Developer</p>
         </div>
 
-        <h2 class="section-title">Contact Information</h2>
-        <div class="social-icons text-center">
+        <div class="text-center social-icons">
             <a href="https://www.linkedin.com/in/papu-sahu-84b2062aa/" target="_blank" aria-label="LinkedIn">
                 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
             </a>
@@ -58,44 +32,53 @@
             </a>
         </div>
 
-        <div class="contact-info text-center">
-            <p><i class="fas fa-envelope"></i> <a href="mailto:codepapu@gmail.com">codepapu@gmail.com</a></p>
-            <p><i class="fas fa-phone"></i> <a href="tel:+91978579046">7978579046</a></p>
+        <div id="contact" class="contact-info text-center">
+            <div class="contact-item">
+                <p><i class="fas fa-envelope"></i> <a href="mailto:codepapu@gmail.com">codepapu@gmail.com</a></p>
+            </div>
+            <div class="contact-item">
+                <p><i class="fas fa-phone"></i> <a href="tel:+91978579046">7978579046</a></p>
+            </div>
+        </div>        
+
+        <div id="bio">
+            <h2 class="section-title">Bio</h2>
+            <div class="card">
+                <div class="card-body">
+                    Welcome to my profile! I am <strong>Papu Sahu</strong>, a skilled professional with expertise in <strong>Java Development</strong> and a passion for <strong>Full Stack Development</strong>. With over 2.5 years of hands-on experience, I have honed my skills in Core Java, Liferay, Spring Framework, and various other technologies, contributing to robust and scalable software solutions. I am always eager to embrace new challenges and grow as a developer.
+                </div>
+            </div>
         </div>
 
-        <h2 class="section-title">Bio</h2>
-        <p>
-            Welcome to my profile! I am <strong>Papu Sahu</strong>, a skilled professional with expertise in <strong>Java Development</strong> and a passion for <strong>Full Stack Development</strong>. With over 2.5 years of hands-on experience, I have honed my skills in Core Java, Liferay, Spring Framework, and various other technologies, contributing to robust and scalable software solutions. I am always eager to embrace new challenges and grow as a developer.
-        </p>
-
-        <h2 class="section-title">Expertise</h2>
-        <ul>
-            <li><i class="fas fa-cogs emoji"></i><strong>Liferay Development:</strong> Extensive experience with OSGI Modules, plugin SDK, extensions, portlets, themes, forms, Liferay Faces, Asset Framework, and layouts.</li>
-            <li><i class="fas fa-plug emoji"></i><strong>Web Services:</strong> Proficient in generating SOAP web services API calls.</li>
-            <li><i class="fas fa-lock emoji"></i><strong>Permission System:</strong> Skilled in implementing and customizing the Liferay Permission system.</li>
-            <li><i class="fas fa-globe emoji"></i><strong>Website Management:</strong> Building and managing websites with Liferay technology, covering versions from Liferay DXP 7.0 to the current 7.4.</li>
-            <li><i class="fas fa-paint-brush emoji"></i><strong>Customization:</strong> Customizing the look and feel of websites and pages using themes.</li>
-            <li><i class="fas fa-arrow-right emoji"></i><strong>Version Migration:</strong> Proficient in Liferay version migrations.</li>
-            <li><i class="fas fa-server emoji"></i><strong>Environment Setup:</strong> Setting up Liferay portals in various environments including Local.</li>
-            <li><i class="fas fa-columns emoji"></i><strong>Portlet Development:</strong> Expertise in portlet development using JSR 168/286 standards.</li>
-            <li><i class="fas fa-plug emoji"></i><strong>Integration:</strong> Integrating Liferay with Sakai (LMS).</li>
-            <li><i class="fas fa-user-shield emoji"></i><strong>Role Management:</strong> Managing and tweaking Liferay Role Management to meet specific requirements.</li>
-            <li><i class="fas fa-tools emoji"></i><strong>Frameworks and Tools:</strong> Proficient in various Liferay frameworks and tools such as OSGI Modules, Liferay Forms, Pages, Themes, Layouts, MVC Portlets, Spring MVC Portlets, Service Builder, Administration, Cluster, JSP Fragments, Default Portlet Customizations, Dynamic Data Lists, Structures, Templates, Articles, Message Bus, Schedulers, WebSocket Implementation, Role Management, Team Management, User Management, Content Management, Collaboration, Security, and Permissions.</li>
-            <li><i class="fas fa-code emoji"></i><strong>Java Development:</strong> Strong background in developing applications using Core Java, JDBC, Servlets, and JSP.</li>
-            <li><i class="fas fa-sitemap emoji"></i><strong>Spring:</strong> Experience with Spring.</li>
-            <li><i class="fas fa-cogs emoji"></i><strong>Installation & Configuration:</strong> Skilled in Liferay installation and configuration in Windows environments.</li>
-            <li><i class="fas fa-code-branch emoji"></i><strong>Version Control:</strong> Experience with Subversion tools like Tortoise SVN.</li>
-            <li><i class="fas fa-calendar-alt emoji"></i><strong>SDLC:</strong> Thorough understanding and experience in the full Software Development Life Cycle (SDLC) including requirements gathering, analysis, design, development, and testing.</li>
-            <li><i class="fas fa-laptop-code emoji"></i><strong>Programming and Analytical Skills:</strong> Excellent programming and analytical skills.</li>
-            <li><i class="fas fa-database emoji"></i><strong>Database Management:</strong> Experience in creating database schemas for various products.</li>
-            <li><i class="fas fa-project-diagram emoji"></i><strong>Agile Methodology:</strong> Working knowledge and experience in Agile methodology.</li>
-            <li><i class="fas fa-shopping-cart emoji"></i><strong>Liferay Commerce:</strong> Extensive experience with Liferay Commerce.</li>
-        </ul>
+        <div id="expertise">
+            <h2 class="section-title">Expertise</h2>
+            <ul class="list-group">
+                <li class="list-group-item"><i class="fas fa-cogs"></i><strong>Liferay Development:</strong> Extensive experience with OSGI Modules, plugin SDK, extensions, portlets, themes, forms, Liferay Faces, Asset Framework, and layouts.</li>
+                <li class="list-group-item"><i class="fas fa-plug"></i><strong>Web Services:</strong> Proficient in generating SOAP web services API calls.</li>
+                <li class="list-group-item"><i class="fas fa-lock"></i><strong>Permission System:</strong> Skilled in implementing and customizing the Liferay Permission system.</li>
+                <li class="list-group-item"><i class="fas fa-globe"></i><strong>Website Management:</strong> Building and managing websites with Liferay technology, covering versions from Liferay DXP 7.0 to the current 7.4.</li>
+                <li class="list-group-item"><i class="fas fa-paint-brush"></i><strong>Customization:</strong> Customizing the look and feel of websites and pages using themes.</li>
+                <li class="list-group-item"><i class="fas fa-arrow-right"></i><strong>Version Migration:</strong> Proficient in Liferay version migrations.</li>
+                <li class="list-group-item"><i class="fas fa-server"></i><strong>Environment Setup:</strong> Setting up Liferay portals in various environments including Local.</li>
+                <li class="list-group-item"><i class="fas fa-columns"></i><strong>Portlet Development:</strong> Expertise in portlet development using JSR 168/286 standards.</li>
+                <li class="list-group-item"><i class="fas fa-plug"></i><strong>Integration:</strong> Integrating Liferay with Sakai (LMS).</li>
+                <li class="list-group-item"><i class="fas fa-user-shield"></i><strong>Role Management:</strong> Managing and tweaking Liferay Role Management to meet specific requirements.</li>
+                <li class="list-group-item"><i class="fas fa-tools"></i><strong>Frameworks and Tools:</strong> Proficient in various Liferay frameworks and tools such as OSGI Modules, Liferay Forms, Pages, Themes, Layouts, MVC Portlets, Spring MVC Portlets, Service Builder, Administration, Cluster, JSP Fragments, Default Portlet Customizations, Dynamic Data Lists, Structures, Templates, Articles, Message Bus, Schedulers, WebSocket Implementation, Role Management, Team Management, User Management, Content Management, Collaboration, Security, and Permissions.</li>
+                <li class="list-group-item"><i class="fas fa-code"></i><strong>Java Development:</strong> Strong background in developing applications using Core Java, JDBC, Servlets, and JSP.</li>
+                <li class="list-group-item"><i class="fas fa-sitemap"></i><strong>Spring:</strong> Experience with Spring.</li>
+                <li class="list-group-item"><i class="fas fa-cogs"></i><strong>Installation & Configuration:</strong> Skilled in Liferay installation and configuration in Windows environments.</li>
+                <li class="list-group-item"><i class="fas fa-code-branch"></i><strong>Version Control:</strong> Experience with Subversion tools like Tortoise SVN.</li>
+                <li class="list-group-item"><i class="fas fa-calendar-alt"></i><strong>SDLC & Agile:</strong> Thorough understanding of the Software Development Life Cycle (SDLC) and Agile methodology.</li>
+                <li class="list-group-item"><i class="fas fa-database"></i><strong>Database Management:</strong> Experience in database schema creation.</li>
+                <li class="list-group-item"><i class="fas fa-lightbulb"></i><strong>Programming & Analytical Skills:</strong> Excellent programming and analytical skills.</li>
+                <li class="list-group-item"><i class="fas fa-laptop-code"></i><strong>Quick Learner:</strong> Proficient in quickly grasping new technical concepts and utilizing them productively.</li>
+            </ul>
+        </div>
     </div>
 
     <!-- Bootstrap JS and dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
